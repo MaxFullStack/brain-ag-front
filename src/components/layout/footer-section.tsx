@@ -2,9 +2,9 @@ import React from "react"
 
 const FooterSection = () => {
   return (
-    <footer className="py-4 text-center">
-      <p>© {new Date().getFullYear()} Max Vinicius IT. All rights reserved.</p>
-    </footer>
+    <div className="z-20 w-full bg-background/95 py-4 text-center shadow backdrop-blur supports-[backdrop-filter]:bg-background/60">
+      <p>© {new Date().getFullYear()} Max Vinicius IT.</p>
+    </div>
   )
 }
 
